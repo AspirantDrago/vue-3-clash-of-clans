@@ -7,7 +7,6 @@
     <span class="card-title">{{ title }}</span>
     <div class="card-body">
       <slot name="body"></slot>
-
       <router-link
         v-if="link"
         class="link"
